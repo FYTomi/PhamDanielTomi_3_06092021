@@ -1,0 +1,19 @@
+{
+  "name": "p3_pham_daniel_tomi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FYTomi/PhamDanielTomi_3_06092021.git"
+  },
+  "author": "Daniel Tomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FYTomi/PhamDanielTomi_3_06092021/issues"
+  },
+  "homepage": "https://github.com/FYTomi/PhamDanielTomi_3_06092021#readme"
+}
