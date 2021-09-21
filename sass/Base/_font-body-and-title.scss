@@ -7,3 +7,14 @@ body {
 .menu__nom h2 {
     font-family: 'Shrikhand', sans-serif;
 }
+
+/* ohmyfood dans footer */
+
+footer p {
+    font-family: 'Shrikhand', sans-serif;
+    color: $footer-font-color
+}
+
+footer ul li a {
+    color: $footer-font-color;
+}

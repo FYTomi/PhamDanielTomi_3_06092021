@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/Base/_font-body-and-title.scss","sass/Base/_link-list.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;AAEA;EACI;;;ACPJ;EACI;EACA;;;AAGJ;EACI","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["sass/Base/_font-body-and-title.scss","sass/utils/_variables.scss","sass/Base/_link-list.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;AAEA;EACI;;;AAGJ;AAEA;EACI;EACA,OCRgB;;;ADWpB;EACI,OCZgB;;;ACNpB;EACI;EACA;;;AAGJ;EACI","file":"style.css"}
