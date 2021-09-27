@@ -37,6 +37,9 @@ ul {
 .footer__list {
   padding-bottom: 10px;
 }
+.footer__list--icon {
+  padding-right: 15px;
+}
 
 .header-menu {
   display: flex;
