@@ -13,6 +13,10 @@
         height: 8vw;
         padding: 10px;
     }
+    &__destination {
+        border: none;
+        font-weight: bold;
+    }
     &__search {
     display: flex;
     border-top: rgb(207, 207, 207);
@@ -20,9 +24,49 @@
     }   &__section {
         background-color: $bg-section-colour;
         
-    }   &__bouton {
+    }   
+        &__divbutton {
+            text-align: center;
+            padding-top: 20px;
+        }
+        &__title{
+            font-size: 6vw;
+            text-align: center;
+            padding-top: 25px;
+        }
+        &__description {
+            text-align: center;
+        }
+        &__bouton {
         @include bouton;
+       
     }
 
             }
+
+ .guide {
+     display: flex;
+     flex-direction: column;
+     &__steps {
+         display: flex;
+         background-color: $bg-section-colour;
+         box-shadow: 3px 3px 10px #e2e2e2;
+         margin-bottom: 30px;
+         align-items: center;
+         width: 90%;
+         font-weight: bold;
+         padding: 15px;
+     }
     
+ }           
+            
+.step-number {
+    background-color: $colour-primary;
+    border-radius: 50%;
+    padding: 10px;
+    color:white ;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+
+}
