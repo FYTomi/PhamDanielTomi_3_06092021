@@ -2,3 +2,21 @@
 @import "./base/font-elements";
 @import "./base/link-list";
 @import "./utils/mixins";
+
+@media screen and (max-width: 375px) {
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__search {
+        display: flex;
+        border-top: rgb(207, 207, 207);
+        background-color: $bg-colour-nav ;
+    }   &__section {
+        background-color: $bg-section-colour
+    }   &__bouton {
+        @include bouton;
+    }
+
+            }
+    }
