@@ -26,4 +26,27 @@ ul {
   list-style-type: none;
 }
 
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-menu__search {
+  display: flex;
+  border-top: #cfcfcf;
+  background-color: #EAEAEA;
+}
+.header-menu__section {
+  background-color: #F6F6F6;
+}
+.header-menu__bouton {
+  color: white;
+  background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
+  border-radius: 200px;
+  box-shadow: 1px 1px 8px #e2e2e2;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
