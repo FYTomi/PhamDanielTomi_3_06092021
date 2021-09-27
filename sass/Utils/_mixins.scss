@@ -1,6 +1,9 @@
 @mixin bouton {
     color: white;
-    background-image: linear-gradient(to right, $colour-secondary, $colour-primary);
+    background-image: linear-gradient(to bottom, $colour-secondary, $colour-primary);
     border-radius: 200px ;
     box-shadow: 1px 1px 8px #e2e2e2;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
 }
