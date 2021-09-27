@@ -26,6 +26,10 @@ ul {
   list-style-type: none;
 }
 
+footer {
+  background-color: #353535;
+}
+
 .header-menu {
   display: flex;
   flex-direction: column;
