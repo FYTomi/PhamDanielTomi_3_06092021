@@ -4,18 +4,24 @@
 @import "./utils/mixins";
 
 
+
 .header-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+    &__logo {
+        height: 8vw;
+        padding: 10px;
+    }
     &__search {
     display: flex;
     border-top: rgb(207, 207, 207);
     background-color: $bg-colour-nav ;
-    }  &__section {
-    background-color: $bg-section-colour
-    }  &__bouton {
-    @include bouton;
+    }   &__section {
+        background-color: $bg-section-colour;
+        
+    }   &__bouton {
+        @include bouton;
     }
 
             }
