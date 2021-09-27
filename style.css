@@ -31,6 +31,14 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+.header-menu__logo {
+  height: 8vw;
+  padding: 10px;
+}
+.header-menu__destination {
+  border: none;
+  font-weight: bold;
+}
 .header-menu__search {
   display: flex;
   border-top: #cfcfcf;
@@ -39,14 +47,52 @@ ul {
 .header-menu__section {
   background-color: #F6F6F6;
 }
+.header-menu__divbutton {
+  text-align: center;
+  padding-top: 20px;
+}
+.header-menu__title {
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 25px;
+}
+.header-menu__description {
+  text-align: center;
+}
 .header-menu__bouton {
   color: white;
   background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
   border-radius: 200px;
-  box-shadow: 1px 1px 8px #e2e2e2;
+  box-shadow: 3px 3px 10px #e2e2e2;
   padding: 15px;
   border: none;
   font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.guide {
+  display: flex;
+  flex-direction: column;
+}
+.guide__steps {
+  display: flex;
+  background-color: #F6F6F6;
+  box-shadow: 3px 3px 10px #e2e2e2;
+  margin-bottom: 30px;
+  align-items: center;
+  width: 90%;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.step-number {
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  height: 15px;
+  width: 15px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
