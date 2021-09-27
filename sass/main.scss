@@ -74,3 +74,12 @@
     text-align: center;
 
 }
+.bouton{ 
+@include bouton;
+            &:hover {
+                cursor: pointer;
+            }
+}
+.order-button {
+    text-align: center;
+}
