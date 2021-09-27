@@ -39,6 +39,9 @@
         }
         &__bouton {
         @include bouton;
+            &:hover {
+                cursor: pointer;
+            }
        
     }
 
@@ -56,6 +59,7 @@
          width: 90%;
          font-weight: bold;
          padding: 15px;
+         border-radius: 10%;
      }
     
  }           
