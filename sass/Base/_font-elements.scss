@@ -5,14 +5,14 @@ body {
 /* nom des menu */
 
 .menu__nom h2 {
-    font-family: 'Shrikhand', sans-serif;
+    font-family: $restaurant-name-font;
 }
 
 /* ohmyfood dans footer */
 
 footer p {
     font-family: 'Shrikhand', sans-serif;
-    color: $footer-font-color
+    color: $footer-font-color;
 }
 
 footer ul li a {
