@@ -41,6 +41,20 @@ ul {
   padding-right: 15px;
 }
 
+.bouton {
+  color: white;
+  background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
+  border-radius: 200px;
+  box-shadow: 3px 3px 10px #e2e2e2;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.bouton:hover {
+  cursor: pointer;
+}
+
 /* Header page d'acceuil */
 .header-menu {
   display: flex;
@@ -114,20 +128,6 @@ ul {
   height: 15px;
   width: 15px;
   text-align: center;
-}
-
-.bouton {
-  color: white;
-  background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
-  border-radius: 200px;
-  box-shadow: 3px 3px 10px #e2e2e2;
-  padding: 15px;
-  border: none;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
-.bouton:hover {
-  cursor: pointer;
 }
 
 .order-button {

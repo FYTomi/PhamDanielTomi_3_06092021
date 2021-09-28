@@ -1,0 +1,6 @@
+.bouton{ 
+    @include bouton;
+                &:hover {
+                    cursor: pointer;
+                }
+    }

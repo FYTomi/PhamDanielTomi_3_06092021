@@ -2,7 +2,8 @@
 @import "./base/font-elements";
 @import "./base/link-list";
 @import "./utils/mixins";
-@import "./composants/footer";
+@import "./layout/footer";
+@import "./composants/button";
 
 /* Header page d'acceuil */ 
 
@@ -76,12 +77,7 @@
     text-align: center;
 
 }
-.bouton{ 
-@include bouton;
-            &:hover {
-                cursor: pointer;
-            }
-}
+
 .order-button {
     text-align: center;
 }
