@@ -155,6 +155,34 @@
     }
 }
 
+.contenu-menu{
+    &__nom {
+    @include menu-names;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 60px
+    }
+    & li{
+        @include articles-restaurants;
+        margin: 10px 0;
+    }
+        & h3,p {
+            margin:5px
+        }
+}
+ 
+.restaurant-image {
+    @media (max-width: 375px) { 
+        height: 50vw;
+        width: 90vw;
+        object-fit: cover;
+    }
+    
+}
 
 
 

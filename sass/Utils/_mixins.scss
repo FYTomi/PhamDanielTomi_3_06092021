@@ -27,6 +27,7 @@
 
 @mixin menu-names {
     text-transform: uppercase;
-    border-bottom: 2px $colour-tertiaire;
-    border-width: 5px;
+    border-bottom: solid 3px $colour-tertiaire;
+    font-weight: lighter;
+    position: absolute;
 }

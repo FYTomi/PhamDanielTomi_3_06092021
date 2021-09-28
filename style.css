@@ -218,4 +218,35 @@ ul {
   justify-content: space-around;
 }
 
+.contenu-menu__nom {
+  text-transform: uppercase;
+  border-bottom: solid 3px #99E2D0;
+  font-weight: lighter;
+  position: absolute;
+}
+.contenu-menu__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 60px;
+}
+.contenu-menu li {
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #e2e2e2;
+  background-color: white;
+  margin: 10px 0;
+}
+.contenu-menu h3, .contenu-menu p {
+  margin: 5px;
+}
+
+@media (max-width: 375px) {
+  .restaurant-image {
+    height: 50vw;
+    width: 90vw;
+    object-fit: cover;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
