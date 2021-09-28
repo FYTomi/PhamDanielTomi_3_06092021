@@ -223,6 +223,7 @@ ul {
   border-bottom: solid 3px #99E2D0;
   font-weight: lighter;
   position: absolute;
+  padding-bottom: 3px;
 }
 .contenu-menu__list {
   list-style-type: none;
