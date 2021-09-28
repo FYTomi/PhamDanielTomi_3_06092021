@@ -118,10 +118,13 @@ ul {
   box-shadow: 3px 3px 10px #e2e2e2;
   margin-bottom: 30px;
   align-items: center;
-  width: 90%;
+  width: auto;
   font-weight: bold;
   padding: 15px;
   border-radius: 30px;
+}
+.guide__steps .step-icon, .guide__steps p {
+  padding: 0 20px;
 }
 
 .step-number {
