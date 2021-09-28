@@ -83,3 +83,11 @@
 .order-button {
     text-align: center;
 }
+
+#restaurants, #menu_restaurant {
+    background-color: $bg-section-colour;
+}
+
+#menu_restaurant {
+    border-radius: 20px 20px 0 0;
+}

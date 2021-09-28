@@ -132,4 +132,12 @@ ul {
   text-align: center;
 }
 
+#restaurants, #menu_restaurant {
+  background-color: #F6F6F6;
+}
+
+#menu_restaurant {
+  border-radius: 20px 20px 0 0;
+}
+
 /*# sourceMappingURL=style.css.map */
