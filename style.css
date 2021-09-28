@@ -201,4 +201,21 @@ ul {
   right: 20px;
 }
 
+/* Pages restaurants*/
+#menu_restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  border-radius: 20px 20px 0 0;
+}
+
+.menu {
+  position: relative;
+}
+.menu__nom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /*# sourceMappingURL=style.css.map */
