@@ -139,8 +139,12 @@ ul {
   text-align: center;
 }
 
-#restaurants, #menu_restaurant {
+.restaurant, #menu_restaurant {
   background-color: #F6F6F6;
+}
+
+.restaurant__header {
+  padding-top: 30px;
 }
 
 #menu_restaurant {
