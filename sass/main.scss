@@ -4,6 +4,7 @@
 @import "./utils/mixins";
 @import "./composants/footer";
 
+/* Header page d'acceuil */ 
 
 .header-menu {
     display: flex;
@@ -47,6 +48,7 @@
 
             }
 
+/* Fonctionnement */
  .guide {
      display: flex;
      flex-direction: column;
@@ -101,3 +103,4 @@
         width: auto;
     }
 }
+

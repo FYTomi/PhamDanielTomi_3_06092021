@@ -41,6 +41,7 @@ ul {
   padding-right: 15px;
 }
 
+/* Header page d'acceuil */
 .header-menu {
   display: flex;
   flex-direction: column;
@@ -88,6 +89,7 @@ ul {
   cursor: pointer;
 }
 
+/* Fonctionnement */
 .guide {
   display: flex;
   flex-direction: column;
