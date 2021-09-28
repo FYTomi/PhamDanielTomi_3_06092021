@@ -108,6 +108,9 @@ ul {
   display: flex;
   flex-direction: column;
 }
+.guide ul {
+  padding: 15px;
+}
 .guide__steps {
   position: relative;
   display: flex;

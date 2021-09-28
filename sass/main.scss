@@ -53,6 +53,9 @@
  .guide {
      display: flex;
      flex-direction: column;
+     & ul {
+         padding:15px;
+     }
      &__steps {
          position: relative;
          display: flex;
