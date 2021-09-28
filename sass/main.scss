@@ -102,6 +102,10 @@
     &__logo {
         height: auto;
         width: auto;
+        @media (max-width: 375px) {
+            height: 8vw;
+            width: auto;
+        }
     }
 }
 

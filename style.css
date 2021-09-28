@@ -156,6 +156,12 @@ ul {
   height: auto;
   width: auto;
 }
+@media (max-width: 375px) {
+  .menu-header__logo {
+    height: 8vw;
+    width: auto;
+  }
+}
 
 #restaurants {
   display: flex;
