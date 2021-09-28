@@ -100,3 +100,23 @@
     }
 }
 
+#restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.resto {
+    @include articles-restaurants; 
+   &__image {
+       height: 20vw;
+       width: 30vw;
+       object-fit: cover;
+       @media (max-width: 375px) { 
+           height: 50vw;
+           width: 90vw;
+           object-fit: cover;
+       }
+           
+       }
+   }
+
