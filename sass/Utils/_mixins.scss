@@ -8,3 +8,8 @@
     font-weight: bold;
     margin-bottom: 40px;
 }
+
+@mixin articles-restaurants {
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #e2e2e2;
+}
