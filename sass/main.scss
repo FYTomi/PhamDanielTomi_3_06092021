@@ -107,16 +107,24 @@
 }
 .resto {
     @include articles-restaurants; 
+    margin: 10px 0;
    &__image {
        height: 20vw;
        width: 30vw;
        object-fit: cover;
+       border-radius: 20px 20px 0 0;
        @media (max-width: 375px) { 
            height: 50vw;
            width: 90vw;
            object-fit: cover;
        }
-           
-       }
+    }
+    &__name {
+        font-size: 1em;
+        margin: $article-content;
+    }
+    &__location {
+        margin: $article-content;
+    }
    }
 
