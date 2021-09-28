@@ -12,4 +12,15 @@
 @mixin articles-restaurants {
     border-radius: 20px;
     box-shadow: 3px 3px 10px #e2e2e2;
+    background-color: white;
+}
+
+@mixin new-text-box {
+    background: $colour-tertiaire;
+    color: $colour-font-new;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
 }

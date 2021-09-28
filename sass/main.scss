@@ -107,6 +107,7 @@
     padding-bottom: 50px;
 }
 .resto {
+    position: relative;
     @include articles-restaurants; 
     margin: 10px 0;
    &__image {
@@ -127,5 +128,9 @@
     &__location {
         margin: $article-content;
     }
+    &__new-text {
+        @include new-text-box
+    }
    }
+
 
