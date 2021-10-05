@@ -48,19 +48,21 @@
     @include menu-names;
     margin-left: 20px;
     }
-    &__list {
-        list-style-type: none;
+    &__container{
         display: flex;
-        flex-direction: column;
-        padding: 0px;
-        margin-top: 60px
-    }
-    & li{
+        justify-content: space-between;
         @include articles-restaurants;
-        margin: 10px 0;
+        margin: 15px 0;
+        padding: 10px
     }
-        & h3,p {
-            margin:5px
-        }
+    & h3,p {
+       margin: $article-content;
+    }
+    &__prix {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+    
 }
  
