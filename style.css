@@ -55,6 +55,10 @@ ul {
   cursor: pointer;
 }
 
+.order-button {
+  text-align: center;
+}
+
 /* Header page d'acceuil */
 .header-menu {
   display: flex;
@@ -147,10 +151,6 @@ ul {
   left: -15px;
   display: flex;
   align-items: center;
-}
-
-.order-button {
-  text-align: center;
 }
 
 .restaurant, #menu_restaurant {

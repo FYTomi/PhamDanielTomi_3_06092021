@@ -1,0 +1,51 @@
+/* Header page d'acceuil */ 
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo {
+        height: 8vw;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    &__logo-block {
+        box-shadow: 0px 15px 10px -15px rgb(207, 207, 207);   
+        width: 100%;
+    }
+    &__destination {
+        border: none;
+        font-weight: bold;
+    }
+    &__search {
+    display: flex;
+    border-top: rgb(207, 207, 207);
+    background-color: $bg-colour-nav ;
+    }   &__section {
+        background-color: $bg-section-colour;
+        
+    }   
+        &__divbutton {
+            text-align: center;
+            padding-top: 20px;
+        }
+        &__title{
+            font-size: 6vw;
+            text-align: center;
+            padding-top: 25px;
+        }
+        &__description {
+            text-align: center;
+        }
+        &__bouton {
+        @include bouton;
+            &:hover {
+                cursor: pointer;
+            }
+       
+    }
+
+            }

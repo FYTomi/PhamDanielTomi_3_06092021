@@ -1,0 +1,40 @@
+/* Fonctionnement */
+.guide {
+    display: flex;
+    flex-direction: column;
+    & ul {
+        padding:15px;
+    }
+    &__steps {
+        position: relative;
+        display: flex;
+        background-color: $bg-section-colour;
+        box-shadow: 3px 3px 10px #e2e2e2;
+        margin-bottom: 30px;
+        align-items: center;
+        width: auto;
+        font-weight: bold;
+        padding: 15px;
+        border-radius: 30px;
+        & .step-icon, p {
+           padding: 0 20px;
+
+        }
+    }
+   
+}           
+           
+.step-number {
+   background-color: $colour-primary;
+   border-radius: 50%;
+   padding: 10px;
+   color:white ;
+   height: 7px;
+   width: 7px;
+   text-align: center;
+   position: absolute;
+   left: -15px;
+   display: flex;
+   align-items: center;
+
+}

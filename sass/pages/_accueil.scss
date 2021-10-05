@@ -1,0 +1,57 @@
+.restaurant, #menu_restaurant {
+    background-color: $bg-section-colour;
+}
+.restaurant__header{
+    padding-top:30px
+}
+
+#menu_restaurant {
+    border-radius: 20px 20px 0 0;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+        height: auto;
+        width: auto;
+        @media (max-width: 375px) {
+            height: 8vw;
+            width: auto;
+        }
+    }
+}
+
+#restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.resto {
+    position: relative;
+    @include articles-restaurants; 
+    margin: 10px 0;
+   &__image {
+       height: 20vw;
+       width: 30vw;
+       object-fit: cover;
+       border-radius: 20px 20px 0 0;
+       @media (max-width: 375px) { 
+           height: 50vw;
+           width: 90vw;
+           object-fit: cover;
+       }
+    }
+    &__name {
+        font-size: 1em;
+        margin: $article-content;
+    }
+    &__location {
+        margin: $article-content;
+    }
+    &__new-text {
+        @include new-text-box
+    }
+   }
