@@ -60,13 +60,6 @@ ul {
   text-align: center;
 }
 
-.fa-arrow-left {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 30px;
-  left: 20px;
-}
-
 /* Nav page d'acceuil */
 .nav-menu {
   display: flex;
@@ -230,6 +223,27 @@ ul {
 }
 
 /* Pages restaurants*/
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-header__return {
+  font-size: 1.5em;
+  padding-right: 30px;
+}
+.menu-header__logo {
+  height: auto;
+  width: auto;
+  padding: 10px 0;
+}
+@media (max-width: 375px) {
+  .menu-header__logo {
+    height: 8vw;
+    width: auto;
+  }
+}
+
 .restaurant-image img {
   width: 100%;
   height: 40vh;

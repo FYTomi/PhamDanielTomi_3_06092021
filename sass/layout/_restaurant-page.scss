@@ -4,6 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    &__return{
+        font-size: 1.5em;
+        padding-right:30px;
+    }
     &__logo {
         height: auto;
         width: auto;
