@@ -46,13 +46,10 @@
            object-fit: cover;
        }
     }
-    &__name {
-        font-size: 1em;
+    &__info h3,p {
         margin: $article-content;
     }
-    &__location {
-        margin: $article-content;
-    }
+    
     &__new-text {
         @include new-text-box
     }
