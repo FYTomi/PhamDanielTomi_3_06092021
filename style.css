@@ -209,7 +209,10 @@ ul {
     object-fit: cover;
   }
 }
-.resto__info h3, .resto p {
+.resto__info {
+  padding: 10px;
+}
+.resto h3, .resto p {
   margin: 5px 10px;
 }
 .resto__new-text {
@@ -220,6 +223,10 @@ ul {
   position: absolute;
   top: 15px;
   right: 20px;
+}
+.resto__container {
+  display: flex;
+  align-items: center;
 }
 
 /* Pages restaurants*/

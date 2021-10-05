@@ -46,11 +46,18 @@
            object-fit: cover;
        }
     }
-    &__info h3,p {
+    &__info {
+        padding:10px;
+    }
+        & h3,p {
         margin: $article-content;
     }
     
     &__new-text {
         @include new-text-box
+    }
+    &__container {
+        display: flex;
+        align-items: center;
     }
    }
