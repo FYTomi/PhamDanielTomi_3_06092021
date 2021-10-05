@@ -6,6 +6,27 @@
         & input {
             @include input;
         }
+        &__section {
+            background-color: $bg-section-colour;
+            padding: 30px 0 30px 0;}
+        &__title {
+                font-weight: bold;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 0px;
+            }
+        &__description {
+            font-size: 20px;
+            text-align: center;
+            margin: 0 10px 40px 10px;
+        }
+        &__divbutton {
+            display: flex;
+            justify-content: center;
+        }
+        &__bouton {
+            @include bouton
+        }
 
         }
 
