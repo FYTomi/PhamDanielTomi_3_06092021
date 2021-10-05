@@ -1,5 +1,19 @@
 /* Pages restaurants*/
 
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+        height: auto;
+        width: auto;
+        padding: 10px 0;
+        @media (max-width: 375px) {
+            height: 8vw;
+            width: auto;
+        }
+    }
+}
 .restaurant-image img {
     width: 100%;
     height: 40vh;
