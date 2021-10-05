@@ -209,11 +209,7 @@ ul {
     object-fit: cover;
   }
 }
-.resto__name {
-  font-size: 1em;
-  margin: 5px 10px;
-}
-.resto__location {
+.resto__info h3, .resto p {
   margin: 5px 10px;
 }
 .resto__new-text {
