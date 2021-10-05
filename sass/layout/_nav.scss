@@ -1,0 +1,16 @@
+/* Nav page d'acceuil */ 
+
+
+    .nav-menu {
+        @include nav;
+        & input {
+            @include input;
+        }
+
+        }
+
+    
+
+    
+
+            

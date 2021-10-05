@@ -32,3 +32,21 @@
     position: absolute;
     padding-bottom: 3px;
 }
+
+@mixin nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: $bg-colour-nav;
+    box-shadow: inset 0px 10px 5px -5px #d4d4d4;
+}
+
+@mixin input {
+    text-align: center;
+    background-color: $bg-colour-nav;
+    border: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
