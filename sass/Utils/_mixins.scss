@@ -26,10 +26,11 @@
 }
 
 @mixin menu-names {
+    display: inline;
     text-transform: uppercase;
     border-bottom: solid 3px $colour-tertiaire;
-    font-weight: lighter;
-    position: absolute;
+    font-weight: 400;
+    position: relative;
     padding-bottom: 3px;
 }
 
