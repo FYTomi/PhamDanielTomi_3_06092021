@@ -266,6 +266,11 @@ ul {
   margin: 5px;
 }
 
+.restaurant-image {
+  width: 100%;
+  max-height: 14em;
+  object-fit: cover;
+}
 @media (max-width: 375px) {
   .restaurant-image {
     height: 50vw;
