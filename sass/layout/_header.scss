@@ -1,5 +1,3 @@
-/* Header page d'acceuil */ 
-
 .header-menu {
     display: flex;
     flex-direction: column;
@@ -20,32 +18,4 @@
         border: none;
         font-weight: bold;
     }
-    &__search {
-    display: flex;
-    border-top: rgb(207, 207, 207);
-    background-color: $bg-colour-nav ;
-    }   &__section {
-        background-color: $bg-section-colour;
-        
-    }   
-        &__divbutton {
-            text-align: center;
-            padding-top: 20px;
-        }
-        &__title{
-            font-size: 6vw;
-            text-align: center;
-            padding-top: 25px;
-        }
-        &__description {
-            text-align: center;
-        }
-        &__bouton {
-        @include bouton;
-            &:hover {
-                cursor: pointer;
-            }
-       
-    }
-
-            }
+}
