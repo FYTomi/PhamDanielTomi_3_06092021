@@ -271,28 +271,30 @@ ul {
 }
 
 .contenu-menu__nom {
+  display: inline;
   text-transform: uppercase;
   border-bottom: solid 3px #99E2D0;
-  font-weight: lighter;
-  position: absolute;
+  font-weight: 400;
+  position: relative;
   padding-bottom: 3px;
   margin-left: 20px;
 }
-.contenu-menu__list {
-  list-style-type: none;
+.contenu-menu__container {
   display: flex;
-  flex-direction: column;
-  padding: 0px;
-  margin-top: 60px;
-}
-.contenu-menu li {
+  justify-content: space-between;
   border-radius: 20px;
   box-shadow: 3px 3px 10px #e2e2e2;
   background-color: white;
-  margin: 10px 0;
+  margin: 15px 0;
+  padding: 10px;
 }
 .contenu-menu h3, .contenu-menu p {
-  margin: 5px;
+  margin: 5px 10px;
+}
+.contenu-menu__prix {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
 
 .header-menu {
