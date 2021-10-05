@@ -126,6 +126,7 @@ ul {
   width: auto;
   font-weight: bold;
   padding: 10px;
+  cursor: pointer;
   border-radius: 30px;
 }
 .guide__steps .step-icon, .guide__steps p {
@@ -281,6 +282,7 @@ ul {
 }
 .contenu-menu__container {
   display: flex;
+  cursor: pointer;
   justify-content: space-between;
   border-radius: 20px;
   box-shadow: 3px 3px 10px #e2e2e2;
