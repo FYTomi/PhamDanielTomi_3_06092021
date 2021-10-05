@@ -25,7 +25,8 @@
             justify-content: center;
         }
         &__bouton {
-            @include bouton
+            @include bouton;
+            cursor: pointer;
         }
 
         }
