@@ -46,6 +46,7 @@
 .contenu-menu{
     &__nom {
     @include menu-names;
+    margin-left: 20px;
     }
     &__list {
         list-style-type: none;

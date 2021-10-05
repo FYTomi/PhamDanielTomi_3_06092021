@@ -276,6 +276,7 @@ ul {
   font-weight: lighter;
   position: absolute;
   padding-bottom: 3px;
+  margin-left: 20px;
 }
 .contenu-menu__list {
   list-style-type: none;
