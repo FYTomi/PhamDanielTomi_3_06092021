@@ -118,6 +118,7 @@ ul {
 .guide {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 .guide ul {
   padding: 15px;
@@ -131,7 +132,7 @@ ul {
   align-items: center;
   width: auto;
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
   border-radius: 30px;
 }
 .guide__steps .step-icon, .guide__steps p {
