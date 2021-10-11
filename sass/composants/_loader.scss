@@ -1,0 +1,31 @@
+
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: white;
+    opacity: 0.95;
+    
+    &--border {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border: 10px solid;
+    border-color: $colour-primary $colour-secondary $colour-tertiaire $colour-font-new;
+    border-radius: 50%;
+    font-family: $restaurant-name-font;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+}

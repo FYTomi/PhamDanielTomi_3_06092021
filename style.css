@@ -321,4 +321,33 @@ ul {
   font-weight: bold;
 }
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: white;
+  opacity: 0.95;
+}
+.loader--border {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  border: 10px solid;
+  border-color: #9356DC #FF79DA #99E2D0 #0C8E6E;
+  border-radius: 50%;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
 /*# sourceMappingURL=style.css.map */
