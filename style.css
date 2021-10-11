@@ -333,7 +333,7 @@ ul {
   right: 0;
   opacity: 0.9;
   background: white;
-  animation: appear 4s;
+  animation: appear 4s forwards;
   /* Cercle du loader */
 }
 @keyframes appear {
