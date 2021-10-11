@@ -1,5 +1,5 @@
 
-
+/* Conteneur du loader */
 .loader {
     display: flex;
     justify-content: center;
@@ -12,8 +12,21 @@
     right: 0;
     z-index: 10;
     background: white;
-    opacity: 0.95;
+    animation: appear 4s;
+
+    @keyframes appear{
+        0% {
+            opacity: 0.95;
+        }
+
+        100% {
+            opacity:0;
+            display: none;
+        }
+    }
     
+    
+    /* Cercle du loader */
     &--border {
     position: fixed;
     width: 250px;
@@ -26,6 +39,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    animation: spin 4s linear both;
+    
 }
 }
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg);
+        
+    }
+  }
