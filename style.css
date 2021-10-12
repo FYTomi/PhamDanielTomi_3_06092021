@@ -55,6 +55,8 @@ ul {
 }
 .bouton:hover {
   cursor: pointer;
+  box-shadow: 0 0 10px #6e6e6e;
+  opacity: 0.8;
 }
 
 .order-button {
@@ -106,6 +108,10 @@ ul {
   font-weight: bold;
   margin-bottom: 40px;
   cursor: pointer;
+}
+.nav-menu__bouton:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px #6e6e6e;
 }
 
 /* Fonctionnement */

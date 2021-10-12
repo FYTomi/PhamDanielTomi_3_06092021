@@ -27,6 +27,10 @@
         &__bouton {
             @include bouton;
             cursor: pointer;
+            &:hover {
+                opacity: 0.8;
+                box-shadow: 0 0 10px #6e6e6e;
+            }
         }
 
         }
