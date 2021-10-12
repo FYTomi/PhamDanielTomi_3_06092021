@@ -296,6 +296,10 @@ ul {
 .contenu-menu__container:hover .check-wrapper {
   margin-right: -3rem;
 }
+.contenu-menu__container:hover i {
+  transform: rotate(360deg);
+  transition-duration: 0.8s;
+}
 .contenu-menu h3, .contenu-menu p {
   margin: 5px 10px;
 }

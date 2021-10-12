@@ -60,6 +60,10 @@
         &:hover .check-wrapper {
             margin-right: -3rem;
         }
+        &:hover i {
+            transform: rotate(360deg);
+            transition-duration: 0.8s;
+        }
     }
         
     & h3,p {
