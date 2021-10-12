@@ -285,6 +285,8 @@ ul {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
+  text-overflow: ellipsis;
+  overflow: hidden;
   border-radius: 20px;
   box-shadow: 3px 3px 10px #e2e2e2;
   background-color: white;
@@ -298,6 +300,22 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 30px;
+}
+
+/* Icônes checker */
+.check-wrapper {
+  width: 4rem;
+  margin: -1rem -7rem -1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99e2d0;
+  color: #fff;
+  transition: ease-out 0.5s;
+}
+
+.rotate {
+  font-size: 30px;
 }
 
 .header-menu {
