@@ -293,6 +293,9 @@ ul {
   margin: 15px 0;
   padding: 10px;
 }
+.contenu-menu__container:hover .check-wrapper {
+  margin-right: -3rem;
+}
 .contenu-menu h3, .contenu-menu p {
   margin: 5px 10px;
 }
@@ -304,15 +307,16 @@ ul {
 
 /* Icônes checker */
 .check-wrapper {
-  width: 4rem;
+  width: 5rem;
   height: 100%;
-  margin: -1rem -7rem -1rem 1rem;
+  margin: -1rem -10rem -1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #99E2D0;
   color: #fff;
   transition: ease-out 0.5s;
+  padding: 10px 10px 10px 0;
 }
 
 .rotate {
