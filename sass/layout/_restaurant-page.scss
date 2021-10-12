@@ -52,6 +52,8 @@
         display: flex;
         cursor: pointer;
         justify-content: space-between;
+        text-overflow: ellipsis;
+        overflow: hidden;
         @include articles-restaurants;
         margin: 15px 0;
         padding: 10px
@@ -67,3 +69,20 @@
     
 }
  
+/* Icônes checker */
+
+.check-wrapper {
+    width: 4rem;
+    margin: -1rem -7rem -1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99e2d0;
+    color: #fff;
+    transition: ease-out 0.5s;
+}
+
+.rotate {
+    font-size: 30px;
+}
+
