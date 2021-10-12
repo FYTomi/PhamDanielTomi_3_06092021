@@ -305,11 +305,12 @@ ul {
 /* Icônes checker */
 .check-wrapper {
   width: 4rem;
+  height: 100%;
   margin: -1rem -7rem -1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #fff;
   transition: ease-out 0.5s;
 }

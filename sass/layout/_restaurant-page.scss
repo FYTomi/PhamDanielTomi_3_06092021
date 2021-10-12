@@ -73,11 +73,12 @@
 
 .check-wrapper {
     width: 4rem;
+    height: 100%;
     margin: -1rem -7rem -1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #99e2d0;
+    background-color: $colour-tertiaire;
     color: #fff;
     transition: ease-out 0.5s;
 }
