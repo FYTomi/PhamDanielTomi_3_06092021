@@ -139,6 +139,12 @@ ul {
 .guide__steps .step-icon, .guide__steps p {
   padding: 0 20px;
 }
+.guide__steps:hover {
+  background-color: #F5EDFF;
+}
+.guide__steps:hover i {
+  color: #9356DC;
+}
 
 .step-number {
   background-color: #9356DC;
@@ -308,6 +314,13 @@ ul {
   padding-bottom: 3px;
   margin-left: 20px;
 }
+.contenu-menu__nom-plat, .contenu-menu__nom-plat h3, .contenu-menu p {
+  width: 95%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .contenu-menu__container {
   display: flex;
   cursor: pointer;
@@ -317,8 +330,8 @@ ul {
   border-radius: 20px;
   box-shadow: 3px 3px 10px #e2e2e2;
   background-color: white;
-  margin: 15px 0;
-  padding: 10px;
+  margin: 15px 10px;
+  padding: 5px;
 }
 .contenu-menu__container:hover .check-wrapper {
   margin-right: -3rem;
@@ -340,7 +353,7 @@ ul {
 .check-wrapper {
   width: 5rem;
   height: 100%;
-  margin: -1rem -10rem -1rem 1rem;
+  margin: -1rem -10rem -1rem 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
