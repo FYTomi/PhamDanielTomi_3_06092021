@@ -470,6 +470,7 @@ ul {
 @keyframes filling {
   0% {
     transform: scale(0);
+    opacity: 0;
   }
   10% {
     transform: scale(0.1);
