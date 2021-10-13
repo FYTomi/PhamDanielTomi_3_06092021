@@ -1,24 +1,19 @@
 /* Animation icônes coeur */
-.resto__favorite{
-    margin-right: 10px;
-    &:hover {
-        cursor: pointer;
-    &--vide:hover {
-            animation: disapear 0.5s both;
+/*.resto__favorite{ */
+  .resto__favorite--vide:hover + i {
+            animation: disappear 0.5s forwards linear;
+            opacity: 0;
         }
-    &--plein:hover {
-            background: linear-gradient(to bottom, $colour-secondary, $colour-primary);
-            transform-origin: bottom;
-            animation: fill 0.5s both;
+  .resto__favorite--plein:hover + i {
+            opacity: 1;
+            transform:scale(1);
+            animation: fill 0.5s forwards linear;
         }
-    }
-}
-    
     
 
-
-
-@keyframes disapear {
+    
+    
+@keyframes disappear {
     0%{
         opacity: 1 ;
     }
