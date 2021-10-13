@@ -1,11 +1,12 @@
 @mixin bouton {
+    font-family: "Roboto", sans-serif;
     color: white;
     background-image: linear-gradient(to bottom, $colour-secondary, $colour-primary);
     border-radius: 200px ;
     box-shadow: 3px 3px 10px #e2e2e2;
     padding: 15px;
     border: none;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 
