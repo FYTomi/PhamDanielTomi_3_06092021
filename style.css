@@ -342,6 +342,8 @@ ul {
 }
 .contenu-menu__valeur {
   padding-top: 25px;
+  padding-right: 20px;
+  font-weight: bold;
 }
 .contenu-menu h3, .contenu-menu p {
   margin: 5px 10px;
@@ -350,6 +352,7 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 30px;
+  justify-content: space-between;
 }
 
 /* Icônes checker */
