@@ -340,6 +340,9 @@ ul {
   transform: rotate(360deg);
   transition-duration: 0.8s;
 }
+.contenu-menu__valeur {
+  padding-top: 25px;
+}
 .contenu-menu h3, .contenu-menu p {
   margin: 5px 10px;
 }
@@ -353,7 +356,7 @@ ul {
 .check-wrapper {
   width: 5rem;
   height: 100%;
-  margin: -1rem -10rem -1rem 0rem;
+  margin: -1rem -8rem -1rem 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
