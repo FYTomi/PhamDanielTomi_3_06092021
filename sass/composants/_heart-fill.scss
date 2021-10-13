@@ -1,13 +1,15 @@
 /* Animation icônes coeur */
 /*.resto__favorite{ */
-  .resto__favorite--vide:hover + i {
+  .resto__favorite--vide:hover{
             animation: disappear 0.5s forwards linear;
             opacity: 0;
+            z-index: 1;
         }
-  .resto__favorite--plein:hover + i {
+  .resto__favorite--plein:hover{
             opacity: 1;
             transform:scale(1);
-            animation: fill 0.5s forwards linear;
+            animation: filling 0.5s forwards linear;
+            z-index: 2;
         }
     
 
@@ -34,42 +36,45 @@
     }
     100%{
         opacity: 0;
+        z-index: 1;
     }
 }
 
-@keyframes fill {
+@keyframes filling {
     0% {
-        transform: scaleY(0);
+        transform: scale(0);
       }
       10% {
-        transform: scaleY(0.1);
+        transform: scale(0.1);
       }
       20% {
-        transform: scaleY(0.2);
+        transform: scale(0.2);
       }
       30% {
-        transform: scaleY(0.3);
+        transform: scale(0.3);
       }
       40% {
-        transform: scaleY(0.4);
+        transform: scale(0.4);
       }
       50% {
-        transform: scaleY(0.5);
+        transform: scale(0.5);
       }
       60% {
-        transform: scaleY(0.6);
+        transform: scale(0.6);
       }
       70% {
-        transform: scaleY(0.7);
+        transform: scale(0.7);
       }
       80% {
-        transform: scaleY(0.8);
+        transform: scale(0.8);
       }
       90% {
-        transform: scaleY(0.9);
+        transform: scale(0.9);
       }
       100% {
-        opacity: 1;
-        transform-origin: bottom;
+        opacity:(1);
+        transform: scale(1);
+        
+        z-index: 2;
 }
 }
