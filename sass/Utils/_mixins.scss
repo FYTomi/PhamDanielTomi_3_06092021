@@ -60,3 +60,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@mixin tablet-portrait {
+    @media screen and (max-width: map-get($breakpoints, tablet-portrait)){
+        @content;
+        }
+}
