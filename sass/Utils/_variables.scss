@@ -7,4 +7,9 @@ $bg-section-colour: #F6F6F6;
 $bg-footer-colour: #353535;
 $footer-font-colour: white; 
 $restaurant-name-font: 'Shrikhand', sans-serif;
-$article-content: 5px 10px,
+$article-content: 5px 10px;
+$responsive: (
+    tablet-portrait: 768px,
+    tablet-paysage: 850px,
+    laptop: 1024px
+)
