@@ -1,3 +1,9 @@
+body {
+    @include laptop-large {
+        width: 90%;
+    }
+}
+
 /* Pages restaurants*/
 
 .menu-header {
@@ -59,6 +65,16 @@
         justify-content: space-between;
         padding: 10px 30px 0px 15px;
         margin-bottom: -15px;
+        @include laptop-large {
+            justify-content: space-around
+        }
+    }
+}
+
+.foods-container {
+    @include laptop-large {
+        display: flex;
+        justify-content: center;
     }
 }
 

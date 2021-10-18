@@ -246,6 +246,12 @@ ul {
   justify-content: space-between;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    width: 90%;
+  }
+}
+
 /* Pages restaurants*/
 .menu-header {
   display: flex;
@@ -309,6 +315,18 @@ ul {
   justify-content: space-between;
   padding: 10px 30px 0px 15px;
   margin-bottom: -15px;
+}
+@media screen and (min-width: 1440px) {
+  .menu__nom {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .foods-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .contenu-menu {
