@@ -5,7 +5,12 @@
     margin: 20px;
     & ul {
         padding:15px;
-    }
+        @include laptop {
+            display:flex;
+            justify-content: space-around;
+            }
+        }
+    
     &__steps {
         position: relative;
         display: flex;

@@ -132,6 +132,12 @@ ul {
 .guide ul {
   padding: 15px;
 }
+@media screen and (min-width: 1024px) {
+  .guide ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .guide__steps {
   position: relative;
   display: flex;
@@ -452,7 +458,7 @@ ul {
   align-items: center;
 }
 .header-menu__logo {
-  height: 8vw;
+  height: 8vh;
   padding: 10px;
   display: block;
   margin-left: auto;
