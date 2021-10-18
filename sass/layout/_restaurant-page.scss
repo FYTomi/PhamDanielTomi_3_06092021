@@ -1,8 +1,4 @@
-body {
-    @include laptop-large {
-        width: 90%;
-    }
-}
+
 
 /* Pages restaurants*/
 
@@ -72,7 +68,7 @@ body {
 }
 
 .foods-container {
-    @include laptop-large {
+    @include laptop-large{
         display: flex;
         justify-content: center;
     }

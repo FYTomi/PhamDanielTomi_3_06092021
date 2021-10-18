@@ -210,6 +210,14 @@ ul {
   align-items: center;
   padding-bottom: 50px;
 }
+@media screen and (min-width: 768px) {
+  #restaurants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
 
 .resto {
   position: relative;
@@ -220,15 +228,20 @@ ul {
 }
 .resto__image {
   height: 20vw;
-  width: 100%;
+  width: 35vw;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .resto__image {
     height: 50vw;
     width: 90vw;
     object-fit: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resto__image {
+    width: 100%;
   }
 }
 .resto__info {
@@ -250,12 +263,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-@media screen and (min-width: 1440px) {
-  body {
-    width: 90%;
-  }
 }
 
 /* Pages restaurants*/
