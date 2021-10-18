@@ -268,18 +268,15 @@ ul {
 .resto__favorite:hover {
   cursor: pointer;
 }
-.resto__favorite--plein i:hover {
+.resto__favorite .resto__favorite--plein {
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  transform-origin: bottom;
   opacity: 0;
   transform: scale(0);
   color: transparent;
   -webkit-background-clip: text;
-  z-index: 1;
 }
-.resto__favorite--vide i:hover {
+.resto__favorite .resto__favorite--vide {
   opacity: 1;
-  z-index: 2;
 }
 
 .restaurant-image img {
@@ -500,17 +497,16 @@ ul {
 }
 /* Animation icônes coeur */
 /*.resto__favorite{ */
-.resto__favorite--vide:hover {
+.fa-stack:hover .resto__favorite--vide {
   animation: disappear 0.5s forwards linear;
   opacity: 0;
-  z-index: 1;
 }
 
-.resto__favorite--plein:hover {
+.fa-stack:hover .resto__favorite--plein {
   opacity: 1;
   transform: scale(1);
   animation: filling 0.5s forwards linear;
-  z-index: 2;
+  transform-origin: bottom;
 }
 
 @keyframes disappear {
@@ -572,7 +568,6 @@ ul {
   100% {
     opacity: 1;
     transform: scale(1);
-    z-index: 2;
   }
 }
 

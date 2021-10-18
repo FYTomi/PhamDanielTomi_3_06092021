@@ -1,15 +1,14 @@
 /* Animation icônes coeur */
 /*.resto__favorite{ */
-  .resto__favorite--vide:hover{
+  .fa-stack:hover .resto__favorite--vide{
             animation: disappear 0.5s forwards linear;
             opacity: 0;
-            z-index: 1;
         }
-  .resto__favorite--plein:hover{
+  .fa-stack:hover .resto__favorite--plein {
             opacity: 1;
             transform:scale(1);
             animation: filling 0.5s forwards linear;
-            z-index: 2;
+            transform-origin: bottom;
         }
     
 
@@ -76,6 +75,6 @@
         opacity:1;
         transform: scale(1);
         
-        z-index: 2;
+        
 }
 }
