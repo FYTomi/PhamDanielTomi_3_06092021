@@ -4,7 +4,11 @@
     &__content {
         padding-left: 0px;
         padding-bottom: 0px;
+        @include tablette-portrait{
+            display: flex;
+            justify-content: space-around;
         }
+         }
     &__list {
         padding-bottom: 10px;
     }   &__list--icon{
