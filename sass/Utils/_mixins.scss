@@ -61,8 +61,22 @@
     text-overflow: ellipsis;
 }
 
-@mixin tablet-portrait {
+/* Breakpoints Responsive */
+
+@mixin tablette-portrait {
     @media screen and (max-width: map-get($breakpoints, tablet-portrait)){
+        @content;
+        }
+}
+
+@mixin tablette-paysage {
+    @media screen and (max-width: map-get($breakpoints, tablet-paysage)){
+        @content;
+        }
+}
+
+@mixin laptop {
+    @media screen and (max-width: map-get($breakpoints, laptop)){
         @content;
         }
 }
