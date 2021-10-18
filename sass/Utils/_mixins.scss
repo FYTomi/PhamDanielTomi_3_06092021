@@ -64,19 +64,19 @@
 /* Breakpoints Responsive */
 
 @mixin tablette-portrait {
-    @media screen and (max-width: map-get($breakpoints, tablet-portrait)){
+    @media screen and (min-width: map-get($responsive, tablet-portrait)){
         @content;
         }
 }
 
 @mixin tablette-paysage {
-    @media screen and (max-width: map-get($breakpoints, tablet-paysage)){
+    @media screen and (min-width: map-get($responsive, tablet-paysage)){
         @content;
         }
 }
 
 @mixin laptop {
-    @media screen and (max-width: map-get($breakpoints, laptop)){
+    @media screen and (min-width: map-get($responsive, laptop)){
         @content;
         }
 }
