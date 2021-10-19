@@ -348,11 +348,15 @@ ul {
 .contenu-menu__nom {
   display: inline;
   text-transform: uppercase;
-  border-bottom: solid 3px #99E2D0;
   font-weight: 400;
   position: relative;
   padding-bottom: 3px;
   margin-left: 20px;
+}
+.contenu-menu__nom--green-border {
+  width: 50px;
+  border-bottom: 3px solid #99E2D0;
+  margin: 3px 0px 10px 19px;
 }
 .contenu-menu__nom-plat, .contenu-menu__nom-plat h3, .contenu-menu p {
   width: 95%;

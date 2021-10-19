@@ -78,6 +78,11 @@
     &__nom {
     @include menu-names;
     margin-left: 20px;
+        &--green-border {
+            width: 50px;
+            border-bottom: 3px solid $colour-tertiaire;
+            margin: 3px 0px 10px 19px;
+        }
     }
     &__nom-plat, &__nom-plat h3, p{
         @include overflow
