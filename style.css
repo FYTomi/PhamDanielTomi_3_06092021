@@ -226,7 +226,7 @@ ul {
   background-color: white;
   margin: 10px 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .resto {
     margin: 10px 15px;
   }
