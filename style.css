@@ -368,7 +368,6 @@ ul {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 .contenu-menu__container {
   animation: food-appear 1s linear;
