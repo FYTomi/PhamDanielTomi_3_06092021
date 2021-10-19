@@ -226,6 +226,11 @@ ul {
   background-color: white;
   margin: 10px 0;
 }
+@media screen and (min-width: 1024px) {
+  .resto {
+    margin: 10px 15px;
+  }
+}
 .resto__image {
   height: 20vw;
   width: 35vw;

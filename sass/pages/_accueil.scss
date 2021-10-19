@@ -41,6 +41,9 @@
     position: relative;
     @include articles-restaurants; 
     margin: 10px 0;
+    @include laptop {
+        margin: 10px 15px;
+    }
    &__image {
        height: 20vw;
        width: 35vw;
