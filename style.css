@@ -134,7 +134,7 @@ ul {
 .guide ul {
   padding: 15px;
 }
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .guide ul {
     display: flex;
     justify-content: space-around;
@@ -341,8 +341,13 @@ ul {
     justify-content: space-around;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .menu__nom {
+    justify-content: space-around;
+  }
+}
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .foods-container {
     display: flex;
     justify-content: center;
@@ -358,7 +363,7 @@ ul {
 .contenu-menu {
   padding-top: 20px;
 }
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .contenu-menu {
     width: 33%;
   }
@@ -382,7 +387,7 @@ ul {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .contenu-menu__nom-plat, .contenu-menu__nom-plat h3, .contenu-menu p {
     font-size: 0.9em;
   }

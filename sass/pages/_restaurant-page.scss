@@ -64,6 +64,9 @@
         @include laptop-large {
             justify-content: space-around
         }
+        @include laptop {
+            justify-content: space-around;
+        }
     }
 }
 
