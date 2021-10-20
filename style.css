@@ -134,7 +134,7 @@ ul {
 .guide ul {
   padding: 15px;
 }
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1440px) {
   .guide ul {
     display: flex;
     justify-content: space-around;
