@@ -68,6 +68,10 @@
 }
 
 .foods-container {
+    @include laptop {
+        display: flex;
+        justify-content: center;
+    }
     @include laptop-large{
         display: flex;
         justify-content: center;
@@ -75,6 +79,9 @@
 }
 
 .contenu-menu{
+    @include laptop {
+        width: 33%;
+    }
     &__nom {
     @include menu-names;
     margin-left: 20px;
@@ -85,7 +92,10 @@
         }
     }
     &__nom-plat, &__nom-plat h3, p{
-        @include overflow
+        @include overflow;
+        @include laptop {
+            font-size: 0.9em;
+        }
     }
     &__container{
         animation: food-appear 1s linear;

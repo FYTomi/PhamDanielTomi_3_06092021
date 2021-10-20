@@ -134,7 +134,7 @@ ul {
 .guide ul {
   padding: 15px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   .guide ul {
     display: flex;
     justify-content: space-around;
@@ -342,6 +342,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .foods-container {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1440px) {
   .foods-container {
     display: flex;
@@ -351,6 +357,11 @@ ul {
 
 .contenu-menu {
   padding-top: 20px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .contenu-menu {
+    width: 33%;
+  }
 }
 .contenu-menu__nom {
   display: inline;
@@ -370,6 +381,11 @@ ul {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .contenu-menu__nom-plat, .contenu-menu__nom-plat h3, .contenu-menu p {
+    font-size: 0.9em;
+  }
 }
 .contenu-menu__container {
   animation: food-appear 1s linear;
